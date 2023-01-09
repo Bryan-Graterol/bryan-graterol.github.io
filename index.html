@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/estyle.css">
+    <title>Portafolio Desarrollador web Back-end</title>
+    <link rel="icon" type="image/x-icon" href="asset/imagenes/iconos/portfolio_78401.ico">
+    <!--Fuente letra-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <!--Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <!--Barra-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          <a class="navbar-brand " href="#"><img src="asset/imagenes/iconos/portfolio_78401.ico" alt="Logo_barra" width="50"></a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link link-light" aria-current="page" href="#yo">Sobre mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="#pro">Proyectos</a>
+              </li>
+              <li class="nav-item link-light">
+                <a class="nav-link link-light" href="#foo">Contacto</a>
+              </li>
+            </ul>
+            <a class="navbar-brand " href="#"><img src="asset/imagenes/iconos/1485482199-linkedin_78667.ico" alt="Logo_link" width="50"></a>
+            <a class="navbar-brand " href="#"><img src="asset/imagenes/iconos/logo_github_icon_143196.ico" alt="Logo_git" width="50"></a>
+          </div>
+        </div>
+    </nav>
+    
+    <!--Sobre mi-->
+    <section class="hero alig-items-stretch">
+        <div class="hero-principal ">
+            <img class="foto-perfil "src="asset/imagenes/ejemplo.png" alt="Foto_perfil" width="50">
+            <h1>Hola soy Bryan Graterol</h1>
+            <h2>Soy Desarrollador Back-end y front-end</h2>
+        </div>
+    </section>
+    <!--SOBRE MI-->
+    <section class="sobreMi">
+        <div class="contenedor">
+            <h2 id="yo">Un poco sobre mi</h2>
+            <p>
+                Soy estudiante de analisi y desarrollo de software en el censa, soy autodidata y un apasionado por la tecnologias
+                tengo conocimiento sobre el desarrollo back-end y front-end manejando lenguajes como <strong> php y javascrip, base de datos mysql, lenguaje de consulta
+                sql en conjunto con html y css y los frameworks que utilizo son laravel y symfony </strong>
+            </p>
+            <img class="imagenes img-fluid" src="asset/imagenes/iconos/html.ico" alt="html" width="50">
+            <img class="imagenes img-fluid" src="asset/imagenes/iconos/css.ico" alt="css" width="50">
+            <img class="imagenes img-fluid" src="asset/imagenes/iconos/php.ico" alt="php" width="50">
+            <img class="imagenes img-fluid" src="asset/imagenes/iconos/mysql.ico" alt="mysql" width="50">
+            <img class="imagenes img-fluid" src="asset/imagenes/iconos/laravel.ico" alt="laravel" width="50">
+            <img class="imagenes img-fluid" src="asset/imagenes/iconos/symfony.ico" alt="symfony" width="50">
+        </div>
+    </section>
+    <!--Experiencia-->
+    <section class="experiencia">
+            <div class="container text-center">
+                <div class="row">
+                    <!--Desarrollo web-->
+                    <div class="columnas col-12 col-md-4">
+                        <i class="bi bi-list-nested"></i>
+                        <h3>Front-end</h3>
+                        <p>quam enim voluptatibus distinctio vel autem, nemo deserunt ipsa sint magni fuga perferendis soluta.r</p>
+                        <div class="badges-contenedor">
+                            <span class="badge text-bg-primary">Html</span>
+                            <span class="badge text-bg-primary">Css</span>
+                            <span class="badge text-bg-primary">Boostrap</span>
+                        </div>
+                    </div>
+                    <!--Articulos-->
+                    <div class="columnas col-12 col-md-4">
+                        <i class="bi bi-database"></i>
+                        <h3>Back-end</h3>
+                        <p>quam enim voluptatibus distinctio vel autem, nemo deserunt ipsa sint magni fuga perferendis soluta.r</p>
+                        <div class="badges-contenedor">
+                            
+                            <span class="badge text-bg-primary">Php</span>
+                            <span class="badge text-bg-primary">Laravel</span>
+                            <span class="badge text-bg-primary">Symfony</span>
+                            <span class="badge text-bg-primary">Mysql y sql</span>
+                        </div>
+                    </div>
+                    <!--Estudiante-->
+                    <div class="columnas col-12 col-md-4">
+                        <i class="bi bi-mortarboard"></i>
+                        <h3>Estudiando</h3>
+                        <p>quam enim voluptatibus distinctio vel autem, nemo deserunt ipsa sint magni fuga perferendis soluta.r</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--proyectos-->
+    <section class="proyectos-recientes d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro" id="pro"> Mis proyectos recientes</h2>
+        <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado reciente mente</h3>
+        <div class="container text-center proyectos-contenedor">
+            <div class="row">
+                <!--Proyecto 1-->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="asset/imagenes/proyectos/proyecto_1.png" alt="proyecto 1">
+                        <div class="overlay">
+                            <p>Proyecto 1</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/Bryan-Graterol" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                            </div>
+                            <div class="iconos-contenedor">
+                                <a href=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Proyecto 2-->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="asset/imagenes/proyectos/proyecto_2.png" alt="proyecto 2">
+                        <div class="overlay">
+                            <p>Proyecto 2</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/Bryan-Graterol" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                            </div>
+                            <div class="iconos-contenedor">
+                                <a href=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="seccion-oscura d-flex flex-column align-item-center justify-content-center">
+       <!-- <img src="asset/imagenes/iconos/portfolio_78401.ico"  alt="" class="footer-icono" width="50">--> 
+        <p class="footer-texto text-center" id="foo">Echo por &copy;Bryan Graterol 2023</p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://www.linkedin.com/in/bryan-graterol" target="_blank">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="mailto:bryangraterol.25@gmail.com" target="_blank">
+                <i class="bi bi-envelope"></i>
+            </a>
+            
+        </div>
+    </footer>
+    <!--Boostrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
